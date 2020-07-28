@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+    text-shadow: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+body div {
+    margin: 100px;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    height: 35px;
+    width: 85px;
+    text-decoration: black;
+}
+
+li {
+    margin: 5.5px;
+}
+
+p {
+    font-weight: bold;
+}
