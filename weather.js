@@ -13,7 +13,7 @@ function checkWeather() {
         })
         .then(function (data) {
             console.log(data);
-            weatherPara.textContent = " The weather outside is like " + data.weather[0].description;
-            weatherPara.style.color = "Orange";
+            weatherPara.textContent = " The weather outside is like " + data.weather[0].description + " and the current temperature is about " + data.main.temp;
+            weatherPara.style.color = "Yellow";
         })
 };
